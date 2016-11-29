@@ -12,24 +12,23 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>College?</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
-            Name:
-            <input type="text" name="name"><br> 
-            E-mail:
-            <input type="email" name="email" required><br>
+            <input type="text" name="name" placeholder="Name"><br> 
+            <input type="email" name="email" placeholder="E-mail"required><br>
             <!--add your own inputs below-->
-            Age:
-            <input type="age" name="age"><br>
+            <input type="age" name="age" placeholder="Age"><br>
 
             Are you planning on going to college after High School? <br>
             <input type="radio" name="ans" value="yes"> Yes
             <input type="radio" name="ans" value="no"> No <br>
             
-            If so, what is your college degree option? <br>
+            If so, select your college degree option: <a href="https://bigfuture.collegeboard.org/find-colleges/college-101/quick-guide-your-college-degree-options"><strong>(?)</strong></a> <br>
+            
             <select name="college">
+                
                 <option value="associate degree" selected> Associate Degree </option>
                 <option value="bachelor’s degree"> Bachelor’s (or Baccalaureate) Degree </option>
                 <option value="graduate degree"> Graduate Degree </option>
@@ -37,11 +36,11 @@
                 <option value="joint Degrees"> Joint Degrees </option>
                 <option value="liberal arts and career combination"> Liberal Arts and Career Combination</option>
                 <option value="teacher certification"> Teacher Certification</option>
-                <option value="n/a"> N/A</option>
+                <option value="n/a">Don't know</option>
                 
             </select> <br>
             
-
+            
 
             <!--add your own inputs above-->
 
